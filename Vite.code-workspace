@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../Vite"
+		},
+		{
+			"path": "AngelNet"
+		},
+		{
+			"path": "../../../messManage/mess"
+		},
+		{
+			"path": "../../Django_(important)/mysite"
+		},
+		{
+			"path": "../leadManagerProject/leadmanager"
+		}
+	],
+	"settings": {}
+}
