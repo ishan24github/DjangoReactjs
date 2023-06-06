@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development --watch ./AngelNet/frontend/src/index.js --output-path ./AngelNet/frontend/static/frontend"
+    "dev": "webpack --mode development --watch ./AngelNet/frontend/src/index.js --output-path ./AngelNet/frontend/static/frontend",
+    "build": "webpack --mode production ./AngelNet/frontend/src/index.js --output-path ./AngelNet/frontend/static/frontend"
   },
   "keywords": [],
   "author": "",
