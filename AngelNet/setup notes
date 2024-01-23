@@ -1,0 +1,13 @@
+setup notes
+
+python interpreter - change to path of angel investing
+
+
+-------------------
+
+pipenv shell , python3 manage.py runserver
+npm run dev
+
+in chrome , restart if not changing updates , restart npm , --watch tag
+--------------------------
+

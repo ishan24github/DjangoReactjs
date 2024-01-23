@@ -1,15 +1,15 @@
 import React from "react";
 
-import startup from './../../../../database/models'
+// import startup from './../../../../database/models'
 
 const Form = () => {
   return (
     <div>
       <section className="p-5">
         <div>
-            <div>
-                <h5 className="text-muted">Application Form</h5>
-            </div>
+          <div>
+            <h5 className="text-muted">Application Form</h5>
+          </div>
           <form>
             <div className="form-group my-3">
               <label for="exampleInputEmail1" className="my-2 mx-1">
@@ -68,7 +68,10 @@ const Form = () => {
               />
             </div>
             <div className="form-group my-3">
-              <label for="exampleFormControlTextarea1" className="mt-2 my-2 mx-1">
+              <label
+                for="exampleFormControlTextarea1"
+                className="mt-2 my-2 mx-1"
+              >
                 Describe your product
               </label>
               <textarea
@@ -78,7 +81,10 @@ const Form = () => {
               ></textarea>
             </div>
             <div className="form-group my-3">
-              <label for="exampleFormControlTextarea1" className="mt-2 my-2 mx-1">
+              <label
+                for="exampleFormControlTextarea1"
+                className="mt-2 my-2 mx-1"
+              >
                 Describe your revenue
               </label>
               <textarea
@@ -88,9 +94,18 @@ const Form = () => {
               ></textarea>
             </div>
             <div className="form-group my-3">
-              <label for="exampleFormControlTextarea1" className="mt-2 my-2 mx-1">Upload your Pitch</label>
+              <label
+                for="exampleFormControlTextarea1"
+                className="mt-2 my-2 mx-1"
+              >
+                Upload your Pitch
+              </label>
               <div className="file-upload-wrapper">
-                <input type="file" id="input-file-now" className="file-upload" />
+                <input
+                  type="file"
+                  id="input-file-now"
+                  className="file-upload"
+                />
               </div>
             </div>
 

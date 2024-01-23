@@ -38,6 +38,11 @@ const Navbar = () => {
                 </a>
               </li>
               <li class="nav-item">
+                <a class="nav-link text-light" href="/bid">
+                  Bidding
+                </a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link text-light" href="#">
                   Log in
                 </a>
@@ -46,7 +51,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <Outlet/>
+      <Outlet />
     </div>
   );
 };

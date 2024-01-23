@@ -1,4 +1,3 @@
-
 import React from "react";
 import StartupImage from "../../assets/Startup-Invest.png";
 
@@ -15,7 +14,7 @@ const Showcase = () => {
               {/* <div className="row"> */}
               <div className="d-flex justify-content-center">
                 <button className="btn btn-primary btn-md my-2">
-                  Start Investing
+                  Start Investing Now
                 </button>
                 {/* </div>
               <div className="col"> */}
